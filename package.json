@@ -1,0 +1,33 @@
+{
+  "name": "authflow-api",
+  "version": "1.0.0",
+  "description": "A complete authentication service with JWT access tokens, rotating refresh tokens, OTP verification, and logout-from-all-devices support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulsuthar90243-stack/secure-auth-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rahulsuthar90243-stack/secure-auth-service/issues"
+  },
+  "homepage": "https://github.com/rahulsuthar90243-stack/secure-auth-service#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.12.2",
+    "morgan": "^1.12.1",
+    "nodemon": "^3.1.14"
+  }
+}
