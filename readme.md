@@ -1,0 +1,1 @@
+A complete authentication service with JWT access tokens, rotating refresh tokens, OTP verification, and logout-from-all-devices support.
